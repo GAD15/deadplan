@@ -6,9 +6,11 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/vikunja/vikunja.svg)](https://hub.docker.com/r/vikunja/vikunja/)
 [![OpenAPI Docs](https://img.shields.io/badge/swagger-docs-brightgreen.svg)](https://try.vikunja.io/api/v2/docs)
 
-# Vikunja
+# DeadPlan
 
-> The task manager you actually own. 
+> DeadZone development plans, tasks and checklists.
+
+DeadPlan is a fork of [Vikunja](https://github.com/go-vikunja/vikunja), based on v2.7.0. Branding was modified on 2026-10-14. See [DEADPLAN.md](DEADPLAN.md) for architecture, build and deployment details. Upstream licensing and attribution are preserved.
 
 If Vikunja is useful to you, please consider [supporting the project](https://vikunja.io/support/). You can [buy a coffee](https://www.buymeacoffee.com/kolaente), [sponsor on GitHub](https://github.com/sponsors/kolaente) or buy [a sticker pack](https://vikunja.io/stickers).
 We're also offering [a hosted version of Vikunja](https://vikunja.cloud/) if you want a hassle-free solution for yourself or your team.

@@ -35,3 +35,7 @@ Invoke with the `Skill` tool before writing code in these areas:
 - [Git, plans, worktrees](.agents/docs/git-workflow.md)
 - [Dev commands and configuration](.agents/docs/dev-commands.md)
 - [License system](.agents/docs/license.md)
+
+## DeadPlan fork
+
+Read [DEADPLAN.md](DEADPLAN.md) before changing this fork. The deployment branch is `deadplan`, based on v2.7.0. Keep the project map current when architecture or deployment changes. Preserve upstream license notices and source links. The frontend branding change explicitly includes the product name in all existing translations; preserve their keys and placeholders. Do not restart the backend or game services without an explicit user instruction.

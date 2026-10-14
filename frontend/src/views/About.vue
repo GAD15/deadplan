@@ -11,6 +11,23 @@
 			@close="$router.back()"
 		>
 			<div class="p-4">
+				<p>
+					<a
+						href="https://github.com/GAD15/deadplan"
+						target="_blank"
+						rel="noopener noreferrer"
+					>DeadPlan</a>
+					· <a
+						href="https://github.com/go-vikunja/vikunja"
+						target="_blank"
+						rel="noopener noreferrer"
+					>Vikunja</a>
+					· <a
+						href="https://github.com/GAD15/deadplan/blob/deadplan/LICENSE"
+						target="_blank"
+						rel="noopener noreferrer"
+					>AGPL-3.0</a>
+				</p>
 				<p v-if="versionsEqual">
 					{{ $t('about.version', {version: apiVersion}) }}
 				</p>
